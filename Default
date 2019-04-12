@@ -1,0 +1,62 @@
+﻿# "Crouching"        
+# "CrouchWalking"        
+# "Falling Down"        
+# "Flying"        
+# "FlyingSlow"        
+# "Hovering"        
+# "Hovering Down"        
+# "Hovering Up"        
+# "Jumping"    ジャンプして空中にいる間。    
+# "Landing"    ジャンプから着地するとき。    
+# "PreJumping"    ジャンプをし始めるとき。    
+# "Running"        
+# "Sitting"    オブジェクトに座っているとき。(オブジェクトとリンクされているとき)    
+# "Sitting on Ground"    座っているが、オブジェクトとリンクされていないとき[1]    
+# "Standing"        
+# "Standing Up"    長い距離を落下したあと。硬着陸を指すこともあります。    
+# "Striding"    アバターがオブジェクトの角に引っかかっているときや、他のアバターの上にいるとき。    
+# "Soft Landing"    短い距離を落下したあと。    
+# "Taking Off"        
+# "Turning Left"        
+# "Turning Right"        
+# "Walking"    
+
+[Crouching]
+[CrouchWalking]
+[Falling Down]
+[Flying] Flying
+[FlyingSlow] Flying
+[Hovering]
+[Hovering Down] Jump
+[Hovering Up] Jump
+[Jumping] Jump
+[Landing] Jump
+[PreJumping] Jump
+[Running] run
+[Sitting] sit
+[Sitting on Ground] GroundSit_B_001
+[Standing] Stand_001,Stand_002,Happy,Yawn,Stand_B_004,Stand_B_005,Stand_B_006
+[Standing Up]
+[Striding]
+[Soft Landing] Jump
+[Taking Off]
+[Turning Left]
+[Turning Right]
+[Walking] walk3
+
+# AGENT_ALWAYS_RUN    0x1000    走行モード("常に走る") になっている、もしくは tap-tap-hold を使っている
+# AGENT_ATTACHMENTS    0x0002    装着している
+# AGENT_AUTOPILOT    0x2000    is in "オートパイロット" モード
+# AGENT_AWAY    0x0040    "away" モード
+# AGENT_BUSY    0x0800    "busy" モード
+# AGENT_CROUCHING    0x0400    しゃがんでいる
+# AGENT_FLYING    0x0001    飛んでいる
+# AGENT_IN_AIR    0x0100    空中に浮かんでいる
+# AGENT_MOUSELOOK    0x0008    マウスルック
+# AGENT_ON_OBJECT    0x0020    オブジェクトに座っている
+# AGENT_SCRIPTED    0x0004    スクリプトを装着
+# AGENT_SITTING    0x0010    座っている
+# AGENT_TYPING    0x0200    入力している
+# AGENT_WALKING    0x0080    歩いている、走っている、しゃがみ歩きをしている
+
+[AGENT_TYPING] 
